@@ -15,6 +15,6 @@ import { Component, Vue } from 'vue-property-decorator'
   components: {},
 })
 export default class AboutPage extends Vue {
-  private pageTitle = "About page here";
+  pageTitle = "About page here";
 }
 </script>

@@ -13,6 +13,6 @@ import { Component, Vue } from 'vue-property-decorator'
   components: {},
 })
 export default class IndexPage extends Vue {
-  private pageTitle = "Index page here";
+  pageTitle = "Index page here";
 }
 </script>
