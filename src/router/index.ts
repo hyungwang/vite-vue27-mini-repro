@@ -7,16 +7,16 @@ const router = new VueRouter({
   base: "/",
   routes: [
     {
-      component: () => import("../pages/index.vue"),
+      component: () => import("@/pages/index.vue"),
       path: "/",
-      name: "main"
+      name: "main",
     },
     {
       path: "/about",
       name: "about",
-      component: () => import("../pages/about.vue")
-    }
-  ]
+      component: () => import("@/pages/about.vue"),
+    },
+  ],
 });
 
 export default router;
