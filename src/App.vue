@@ -6,6 +6,6 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 
-@Component({ name: "AppStartingPoint", components: { TsetEntryComponent } })
+@Component({ name: "AppStartingPoint", components: { } })
 export default class AppStartingPoint extends Vue {}
 </script>
