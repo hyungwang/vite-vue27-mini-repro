@@ -8,25 +8,25 @@ export default defineConfig({
   plugins: [
     vue({
       template: {
-        transformAssetUrls: false
-      }
+        transformAssetUrls: false,
+      },
     }),
     dynamicImport({}),
     checker({
-      typescript: true
-    })
+      typescript: true,
+    }),
   ],
   resolve: {
     extensions: [".js", ".ts", ".vue"],
     alias: {
       "@@": path.resolve(__dirname, "./"),
       "~": path.resolve(__dirname, "./"),
-      "@": path.resolve(__dirname, "./src")
-    }
+      "@": path.resolve(__dirname, "./src"),
+    },
   },
-  server: {
-    hmr: false
-  }
+  // server: {
+  //   hmr: false
+  // }
   // define: {
   //   "process.env": process.env
   // }

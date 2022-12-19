@@ -1,5 +1,11 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-size: 24px;
+}
+
+button {
+  @apply bg-gray-500 rounded-md px-5 py-2 text-xs text-white;
 }
